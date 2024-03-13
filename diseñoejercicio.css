@@ -1,0 +1,128 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+body{
+    font-family: "Roboto";
+    background-color: #B4C2DD;
+}
+
+nav{
+
+    background-color: #D1CDC7;
+    overflow: auto;
+}
+
+img{
+
+    height: 60px;
+    float: left;
+}
+
+nav ul{
+
+    float:right;
+    list-style: none;
+
+}
+
+nav li{
+
+    float:left;
+    margin: 0 15px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+#fondo{
+
+    background-image: url("https://www.las2orillas.co/wp-content/uploads/2022/08/Diseno-sin-titulo-2022-08-09T181845.876.jpg");
+    height: auto;
+    background-size: cover;
+    background-position:center 60%;
+
+}
+
+h1{
+
+    color: white;
+    padding: 120px;
+    text-align: center;
+
+}
+
+h2, p{
+
+    text-align: center;
+    
+}
+
+
+main{
+
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#categorias ul li a{
+
+    color: white;
+    text-decoration: none;
+
+}
+
+
+#categorias ul{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+#categorias ul li{
+    list-style: none;
+    margin: 15px;
+}
+
+
+#categorias ul li a{
+
+    background-color: blue;
+    padding: 10px;
+    border-radius: 25px;
+
+}
+
+table{
+
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: max-content;
+}
+
+thead{
+
+    background-color: white;
+}
+
+thead td{ font-weight: 700}
+
+
+footer {
+
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    height: 70px;
+    width: 100%;
+    
+}
+
+footer h3{
+    color: white;
+    text-align: center;
+}
